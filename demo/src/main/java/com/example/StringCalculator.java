@@ -20,7 +20,7 @@ public class StringCalculator {
 
     public int add(String numbers) {
         if (numbers.isEmpty()) {
-            return 2;
+            return 0;
         }
         String[] numArray = numbers.split(",");
         if (numArray.length == 1) {

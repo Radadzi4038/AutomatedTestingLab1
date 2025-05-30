@@ -14,5 +14,5 @@ calculate_volume() {
   # Calculate and return volume
   local volume=$((height * width * length))
   echo "$volume"
-  return 1
+  return 0
 }

@@ -42,3 +42,8 @@ echo "------------------------------"
 run_test "Test 2: Alphabet input" "a" "b" "c" \
 "Error: Only positive integers are allowed (no letters, decimals, or zero)." \
 "Letters like 'a', 'b', 'c' should be rejected."
+
+# Test 3: Negative values
+run_test "Test 3: Negative values" "-1" "2" "3" \
+"Error: Only positive integers are allowed (no letters, decimals, or zero)." \
+"Negative numbers should not be accepted."

@@ -38,3 +38,7 @@ else
 fi
 echo "------------------------------"
 
+# Test 2: Alphabet input
+run_test "Test 2: Alphabet input" "a" "b" "c" \
+"Error: Only positive integers are allowed (no letters, decimals, or zero)." \
+"Letters like 'a', 'b', 'c' should be rejected."

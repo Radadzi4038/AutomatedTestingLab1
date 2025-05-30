@@ -52,3 +52,8 @@ run_test "Test 3: Negative values" "-1" "2" "3" \
 run_test "Test 4: Float values" "2.5" "3" "4" \
 "Error: Only positive integers are allowed (no letters, decimals, or zero)." \
 "Decimal numbers like 2.5 are not considered valid input."
+
+# Test 5: Zeros as input
+run_test "Test 5: Zeros as input" "0" "3" "4" \
+"Error: Only positive integers are allowed (no letters, decimals, or zero)." \
+"Zero values are not allowed in any dimension."

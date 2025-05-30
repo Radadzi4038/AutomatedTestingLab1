@@ -47,3 +47,8 @@ run_test "Test 2: Alphabet input" "a" "b" "c" \
 run_test "Test 3: Negative values" "-1" "2" "3" \
 "Error: Only positive integers are allowed (no letters, decimals, or zero)." \
 "Negative numbers should not be accepted."
+
+# Test 4: Float values
+run_test "Test 4: Float values" "2.5" "3" "4" \
+"Error: Only positive integers are allowed (no letters, decimals, or zero)." \
+"Decimal numbers like 2.5 are not considered valid input."

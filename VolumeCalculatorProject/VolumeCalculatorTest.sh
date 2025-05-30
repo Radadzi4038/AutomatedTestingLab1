@@ -36,5 +36,5 @@ else
   echo "FAIL ❌ - Expected: '$expected', Got: '$output'"
   echo "❗ Explanation: This should be a valid calculation of 2 * 3 * 4 = 24."
 fi
-echo "-----------------------------"
+echo "------------------------------"
 
